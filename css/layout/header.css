@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #08134a;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* garante que fica acima de tudo */
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.3));
+}
+

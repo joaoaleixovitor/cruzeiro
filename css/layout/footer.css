@@ -1,0 +1,87 @@
+footer {
+    background: #08134a;
+    color: white;
+    padding: 40px 20px;
+    font-size: 14px;
+
+}
+
+/* container principal */
+footer>div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* blocos */
+footer nav {
+    min-width: 150px;
+}
+
+/* títulos */
+footer h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* lista */
+footer ul {
+    list-style: none;
+}
+
+/* itens */
+footer li {
+    margin-bottom: 10px;
+}
+
+/* links */
+footer a {
+    text-decoration: none;
+    color: #cfd8ff;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* linhas */
+footer hr {
+    border: none;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 30px 0;
+}
+
+/* redes sociais */
+#social-medias {
+    text-align: center;
+}
+
+#social-medias ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+#social-medias img {
+    width: 24px;
+    height: 24px;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+#social-medias img:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+/* copyright */
+#copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+}
